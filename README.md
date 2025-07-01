@@ -3,6 +3,8 @@ Pay Balance data formatting for adjustment review - State taxation
 
 Note: the provided data is a modified version of a confidential file. All data is fictional and for demonstration purposes only
 
+This macro was one of my first and was made with a combination of recoring steps and information within online sources. It has not been modified. It isn't "pretty" but it works.
+
 Payroll balancing reviews consisted of pulling employee data from a database system which returned a .txt file
 Reporting included all potential state taxes for each applicable pay period. Prior to this VBA macro, all actions were manual each time this report needed reviewed (anywhere from 2 a week to 15 or more).
 
