@@ -1,13 +1,10 @@
-# EAPB-State-formatting
-Pay Balance data formatting for adjustment review - State taxation
+# Pay Balance Data Formatting for Adjustment Review - State Taxation
 
-Note: the provided data is a modified version of a confidential file. All data is fictional and for demonstration purposes only
+> **Note:** The provided data is a modified version of a confidential file. All data is fictional and for demonstration purposes only.
 
-This macro was one of my first and was made with a combination of recoring steps and information within online sources. It has not been modified. It isn't "pretty" but it works.
-
-Payroll balancing reviews consisted of pulling employee data from a database system which returned a .txt file
-Reporting included all potential state taxes for each applicable pay period. Prior to this VBA macro, all actions were manual each time this report needed reviewed (anywhere from 2 a week to 15 or more).
-
-This macro takes the raw .txt file that is opened into excel and it does the following:
-Deliminates the data, Formats headers, hides commonly unused data columns, formats column data, inserts a calculation column for Unemploment exemptions; alerts whether there are OR metro taxes that may need secondary reporting pulled, locates and hides all columns with "0" balances, colors headers with matching grouped columns, renames the tab to "State" which is the applicable taxation data.
+| Aspect                 | Description                                                                                                                                                    |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Project Overview**    | This VBA macro was one of my first projects, created using a combination of recorded steps and online resources. While it hasn’t been modified since creation and is not highly optimized, it effectively automates a previously manual process. |
+| **Context**            | Payroll balancing reviews involved extracting employee data from a database, which produced a raw `.txt` file containing potential state taxes for each applicable pay period. Before this macro, all processing was manual—ranging from 2 to 15+ reports weekly. |
+| **Macro Functionality** | The macro automates processing of the raw `.txt` file opened in Excel by: <ul><li>Delimiting the data</li><li>Formatting headers</li><li>Hiding unused data columns</li><li>Formatting column data</li><li>Inserting a calculation column for Unemployment exemptions</li><li>Alerting for OR metro taxes that may require additional reports</li><li>Hiding all columns with zero balances</li><li>Coloring headers for grouped columns</li><li>Renaming the worksheet tab to "State" to reflect applicable taxation data</li></ul> |
 
