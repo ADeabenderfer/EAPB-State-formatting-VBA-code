@@ -477,4 +477,5 @@ Selection.EntireColumn.Hidden = True
     Sheets("Employee Active Payroll Balance").Name = "State"
     Range("B4").Select
 
+
 End Sub
